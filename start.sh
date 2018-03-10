@@ -23,7 +23,7 @@ install_luarocks() {
     then echo "Error. Exiting."; exit $RET;
   fi
 
-  make build && make install
+  make build && make instal
   RET=$?; if [ $RET -ne 0 ];
     then echo "Error. Exiting.";exit $RET;
   fi
